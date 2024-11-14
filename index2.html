@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imagem em Modal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Conheça Meus Designs!</h1>
+    <div class="image-container">
+        <h2>Concientização versão Desktop
+          <img src="/projetos/Projeto concientização versão Desktop.png" alt="Imagem 2" class="image-thumbnail" 
+          onclick="openModal('/projetos/Projeto concientização versão Desktop.png')">
+        </h2>
+      </div>
+
+      <div class="image-container">
+        <h2>Concientização versão Mobile
+          <img src="/projetos/Projeto concientização versão Mobile.png" alt="Imagem 1" class="image-thumbnail" 
+          onclick="openModal('/projetos/Projeto concientização versão Mobile.png')">
+        </h2>
+      </div>
+      
+      <div class="image-container">
+        <h2>Calculadora de Investimentos
+          <img src="/projetos/Calcuator Investiment.png" alt="Imagem 3" class="image-thumbnail"
+          onclick="openModal('/projetos/Calcuator Investiment.png')">
+        </h2>
+      </div>
+
+      <div class="image-container">
+        <h2>Calculadora de Investimentos (Estatísticas)
+          <img src="/projetos/Calculator Investment Estatisticas.png" alt="Imagem 4" class="image-thumbnail" 
+          onclick="openModal('/projetos/Calculator Investment Estatisticas.png')">
+        </h2>
+      </div>
+
+      <div class="image-container">
+        <h2>E-commerce Landing page loja fictícia
+          <img src="/projetos/Principal.png" alt="Imagem 5"         class="image-thumbnail" 
+          onclick="openModal('/projetos/Principal.png')">
+        </h2>
+      </div>
+
+      <div class="image-container">
+        <h2>E-commerce (Produtos)
+          <img src="/projetos/Produtos.png" alt="Imagem 6" class="image-thumbnail" 
+          onclick="openModal('/projetos/Produtos.png')">
+        </h2>
+      </div>
+
+      <div class="image-container">
+        <h2>Perfil de Usuário
+          <img src="/projetos/USer profile.png" alt="Imagem 7" class="image-thumbnail" 
+          onclick="openModal('/projetos/USer profile.png')">
+        </h2>
+      </div>
+
+      <div class="image-container">
+        <h2>404 Error
+          <img src="/projetos/404.png" alt="Imagem 8" class="image-thumbnail" 
+          onclick="openModal('/projetos/404.png')">
+        </h2>
+      </div>
+
+      <div class="image-container">
+        <h2>Cadastro Page
+          <img src="/projetos/Cadastro.png" alt="Imagem 9" class="image-thumbnail" 
+          onclick="openModal('/projetos/Cadastro.png')">
+        </h2>
+      </div>
+
+      <div class="image-container">
+        <h2>Login Page
+          <img src="/projetos/Login.png" alt="Imagem 9" class="image-thumbnail" 
+          onclick="openModal('/projetos/Login.png')">
+        </h2>
+      </div>
+
+      <div class="image-container">
+        <h2>Chunchyroll Plans Page
+          <img src="/projetos/Chunchyroll Plans.png" alt="Imagem 10" class="image-thumbnail" 
+          onclick="openModal('/projetos/Chunchyroll Plans.png')">
+        </h2>
+      </div>
+
+      <div class="image-container">
+        <h2>Event Register (Dia dos Mortos)
+          <img src="/projetos/Event register.png" alt="Imagem 11" class="image-thumbnail" 
+          onclick="openModal('/projetos/Event register.png')">
+        </h2>
+      </div>
+
+      <div class="image-container">
+        <h2>App de Musica
+          <img src="/projetos/Music app.png" alt="Imagem 12" class="image-thumbnail" 
+          onclick="openModal('/projetos/Music app.png')">
+        </h2>
+      </div>
+  </div>
+
+  <div id="image-modal" class="modal" onclick="modalClickHandler(event)">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modal-image">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
